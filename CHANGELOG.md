@@ -9,7 +9,10 @@ and this project **does not** adheres to [Semantic Versioning](https://semver.or
 
 ### Added
 
+- .gitignore created.
+- README.md created.
 - ads.txt created.
+- LICENSE (MIT License) added.
 
 ### Changed
 

@@ -10,3 +10,15 @@ The Nyx Zone is my personal website, the main site of my collective of websites,
 Between aborted versions, different versions, updates, and projects, my directory structure for my personal and fan websites is becoming a giant tangled nest, so to heck with it, version control it is.
 
 Secondly, I want my shrine hobbyist and fansite maker friends at Amassment.ORG to be able to see the source code of my websites, in case of "how did you do that?" 😄
+
+## Usage
+
+1. Browse through the files
+2. Find interesting things
+3. Get inspired
+4. Build something
+5. 🌈
+
+## License
+
+MIT &copy; Nyx Midnight
