@@ -9,9 +9,13 @@ and this project **does not** adheres to [Semantic Versioning](https://semver.or
 
 ### Added
 
+- ads.txt created.
+
 ### Changed
 
 - This website now uses version control and GitHub.
+- humans.txt updated.
+- robots.txt updated.
 
 ### Fixed
 
