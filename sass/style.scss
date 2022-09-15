@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*=============================================
+=            Section comment block            =
+=============================================*/
+
+/*----------  Sanitize  ----------*/
+@import "sanitize/sanitize";
+@import "sanitize/assets";
+@import "sanitize/forms";
+@import "sanitize/reduce-motion";
+
+/*----------  Mine  ----------*/
