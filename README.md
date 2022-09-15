@@ -17,7 +17,7 @@ Secondly, I want my shrine hobbyist and fansite maker friends at Amassment.ORG t
 2. Find interesting things
 3. Get inspired
 4. Build something
-5. 🌈
+5. 🌈✨
 
 ## License
 
