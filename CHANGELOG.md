@@ -9,22 +9,31 @@ and this project **does not** adheres to [Semantic Versioning](https://semver.or
 
 ### Added
 
-- .gitignore created.
-- README.md created.
-- ads.txt created.
-- LICENSE (MIT License) added.
+- `.gitignore` created.
+- `README.md` created.
+- `ads.txt` created.
+- `LICENSE` (MIT License) added.
+- [Sanitize.css](https://github.com/csstools/sanitize.css/) added.
+- `html5shiv.js` created.
+- `html5shiv.min.js` created.
+- `style.scss` created.
+- Prepros configured to compile `style.scss` into `style.css`.
+- `index.html` created.
+- `_structure.scss` created.
+- `_typography.scss` created.
+- `_variables.scss` created.
 
 ### Changed
 
 - This website now uses version control and GitHub.
-- humans.txt updated.
-- robots.txt updated.
+- `humans.txt` updated.
+- `robots.txt` updated.
 
 ### Fixed
 
 ### Security
 
-- .htaccess file updated.
+- `.htaccess` file updated.
 
 ## Guiding Principles
 
