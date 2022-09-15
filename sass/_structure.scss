@@ -1,0 +1,22 @@
+/*=============================================
+=            Structure            =
+=============================================*/
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	margin: 20px;
+}
+
+:is(.front-page) .container {
+	max-width: 60ch;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+/*=====  End of Structure  ======*/

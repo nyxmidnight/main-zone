@@ -456,4 +456,49 @@
   }
 }
 /*----------  Mine  ----------*/
+/*=============================================
+=            Structure            =
+=============================================*/
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 20px;
+}
+
+:is(.front-page) .container {
+  max-width: 60ch;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*=====  End of Structure  ======*/
+/*=============================================
+=            Typography            =
+=============================================*/
+html {
+  font-size: 125%;
+}
+
+/*=====  End of Typography  ======*/
 /*# sourceMappingURL=style.css.map */
