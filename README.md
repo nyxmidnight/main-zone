@@ -5,6 +5,10 @@
 
 The Nyx Zone is my personal website, the main site of my collective of websites, and a hub of my presence on the Web.
 
+## Release Status
+
+:construction: **New site/layout not yet implemented!** 🚧
+
 ## Why
 
 Between aborted versions, different versions, updates, and projects, my directory structure for my personal and fan websites is becoming a giant tangled nest, so to heck with it, version control it is.
@@ -19,6 +23,10 @@ Secondly, I want my shrine hobbyist and fansite maker friends at Amassment.ORG t
 4. Build something
 5. 🌈✨
 
+## TODO
+
+- [ ] Figure out the todo list!
+
 ## License
 
-MIT &copy; Nyx Midnight
+MIT &copy; Nyx Midnight 🇨🇦
