@@ -22,12 +22,15 @@ and this project **does not** adheres to [Semantic Versioning](https://semver.or
 - `_structure.scss` created.
 - `_typography.scss` created.
 - `_variables.scss` created.
+- `_utilities` created.
 
 ### Changed
 
 - This website now uses version control and GitHub.
 - `humans.txt` updated.
 - `robots.txt` updated.
+- Font used on this website is now `Exo 2` from Google Fonts.
+- Fonts now self-hosted, thank you [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/).
 
 ### Fixed
 
