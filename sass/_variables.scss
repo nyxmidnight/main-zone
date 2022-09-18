@@ -2,6 +2,8 @@
 =            VARIABLES            =
 =============================================*/
 
+/*----------  Self-Hosted Font  ----------*/
+
 /* exo-2-300 - latin */
 @font-face {
 	font-family: 'Exo 2';
@@ -120,6 +122,21 @@
 		/* Safari, Android, iOS */
 		url('../font/exo-2-v20-latin-500italic.svg#Exo2') format('svg');
 	/* Legacy iOS */
+}
+
+/*----------  Variables  ----------*/
+
+:root {
+
+	/*----------  Regular fonts  ----------*/
+
+	--front-text: "Exo 2", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+	/*----------  Thickness  ----------*/
+	--w-thin: 300;
+	--w-reg: 500;
+	--w-thick: 700;
+	--w-thicc: 900;
 }
 
 /*=====  End of VARIABLES  ======*/

@@ -6,4 +6,57 @@ html {
 	font-size: 125%;
 }
 
+/*----------  Front page  ----------*/
+:is(.front-page) p {
+	font-family: var(--front-text);
+	font-weight: var(--w-thick);
+	color: white;
+	text-shadow: 0 1px 3px hsla(0 0% 0% / 0.12), 0 1px 2px hsla(0 0% 0% / 0.24), 0 1px 1px hsla(0 0% 0% / 0.48);
+}
+
+p.biggest {
+	font-size: 4.236rem;
+	font-weight: var(--w-thicc);
+	line-height: 1;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+p.big {
+	font-size: 2.618rem;
+	line-height: 1.2;
+
+}
+
+p.okay {
+	font-size: 1.618rem;
+	line-height: 1.2;
+}
+
+p.small {
+	font-size: 1rem;
+	line-height: 1.4;
+
+}
+
+:is(.front-page) a,
+a:link {
+	color: #ffdc00;
+	text-decoration-skip-ink: auto;
+}
+
+:is(.front-page) a:visited {
+	color: #FF851B;
+}
+
+:is(.front-page) a:hover,
+a:active {
+	color: #01FF70;
+}
+
+:is(.front-page) a:focus {
+	outline: #01FF70 thick double;
+	outline-offset: 0.25rem;
+}
+
 /*=====  End of TYPOGRAPHY  ======*/

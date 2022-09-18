@@ -4,14 +4,22 @@
 
 html {
 	min-height: 100vh;
+	background-color: #65379B;
+	background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
 }
 
 body {
 	margin: 20px;
 }
 
+@media (max-width: 600px) {
+	body {
+		margin: 0 2px;
+	}
+}
+
 :is(.front-page) .container {
-	max-width: 60ch;
+	max-width: 45em;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;

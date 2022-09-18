@@ -459,6 +459,7 @@
 /*=============================================
 =            VARIABLES            =
 =============================================*/
+/*----------  Self-Hosted Font  ----------*/
 /* exo-2-300 - latin */
 @font-face {
   font-family: "Exo 2";
@@ -519,20 +520,41 @@
   src: local(""), url("../font/exo-2-v20-latin-500italic.eot?#iefix") format("embedded-opentype"), url("../font/exo-2-v20-latin-500italic.woff2") format("woff2"), url("../font/exo-2-v20-latin-500italic.woff") format("woff"), url("../font/exo-2-v20-latin-500italic.ttf") format("truetype"), url("../font/exo-2-v20-latin-500italic.svg#Exo2") format("svg");
   /* Legacy iOS */
 }
+/*----------  Variables  ----------*/
+:root {
+  /*----------  Regular fonts  ----------*/
+  --front-text: "Exo 2", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /*----------  Thickness  ----------*/
+  --w-thin: 300;
+  --w-reg: 500;
+  --w-thick: 700;
+  --w-thicc: 900;
+}
+
 /*=====  End of VARIABLES  ======*/
 /*=============================================
 =            STRUCTURE            =
 =============================================*/
 html {
   min-height: 100vh;
+  background-color: #65379B;
+  background-image: -webkit-linear-gradient(315deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  background-image: -moz-linear-gradient(315deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  background-image: -o-linear-gradient(315deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+  background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
 }
 
 body {
   margin: 20px;
 }
 
+@media (max-width: 600px) {
+  body {
+    margin: 0 2px;
+  }
+}
 :is(.front-page) .container {
-  max-width: 60ch;
+  max-width: 45em;
   margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
@@ -562,6 +584,58 @@ body {
 =============================================*/
 html {
   font-size: 125%;
+}
+
+/*----------  Front page  ----------*/
+:is(.front-page) p {
+  font-family: var(--front-text);
+  font-weight: var(--w-thick);
+  color: white;
+  text-shadow: 0 1px 3px hsla(0deg, 0%, 0%, 0.12), 0 1px 2px hsla(0deg, 0%, 0%, 0.24), 0 1px 1px hsla(0deg, 0%, 0%, 0.48);
+}
+
+p.biggest {
+  font-size: 4.236rem;
+  font-weight: var(--w-thicc);
+  line-height: 1;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+p.big {
+  font-size: 2.618rem;
+  line-height: 1.2;
+}
+
+p.okay {
+  font-size: 1.618rem;
+  line-height: 1.2;
+}
+
+p.small {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+:is(.front-page) a,
+a:link {
+  color: #ffdc00;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+:is(.front-page) a:visited {
+  color: #FF851B;
+}
+
+:is(.front-page) a:hover,
+a:active {
+  color: #01FF70;
+}
+
+:is(.front-page) a:focus {
+  outline: #01FF70 thick double;
+  outline-offset: 0.25rem;
 }
 
 /*=====  End of TYPOGRAPHY  ======*/
